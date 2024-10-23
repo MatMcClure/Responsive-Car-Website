@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: #161616
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  font-size: 0.9em;
+  max-width: 35em;
+  line-height: 27px;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0.5em 0;
+  font-size: 3em;
+}
+
+.specs h2, .about h2 {
+  font-size: 2em;
+  padding-left: 1.2em;
+  border-left: 0.1em red solid;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  padding: 2.5em
+}
+
+nav, .infos, .info,
+.specs-header, .specs li,
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specs, .icon,
+.panel:first-child,
+.panel:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#svjlogo {
+  width: 300px;
+  height: 350px;
+}
