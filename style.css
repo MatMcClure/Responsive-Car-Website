@@ -66,3 +66,42 @@ nav, .infos, .info,
   width: 300px;
   height: 350px;
 }
+
+#speedlogo {
+  width: 300px;
+  height: 350px;
+}
+
+#cutlogo {
+  width: 200px;
+  height: 150px;
+}
+
+header {
+  height: 100vh;
+  min-height: 30em;
+  background:
+    url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/aventador_svj_overview_m.jpg)
+    no-repeat center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+  padding: 1.5em 2.5em;
+  position: relative;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.brand {
+  font-size: 1.3em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0.8em;
+  text-align: center;
+}
