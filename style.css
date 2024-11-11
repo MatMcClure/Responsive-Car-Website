@@ -73,7 +73,7 @@ nav, .infos, .info,
 }
 
 #cutlogo {
-  width: 200px;
+  width: 2 00px;
   height: 150px;
 }
 
@@ -104,4 +104,16 @@ nav li {
   display: inline-block;
   margin: 0 0.8em;
   text-align: center;
+}
+
+#footerimg {
+  height: 80vh;
+  width:100%;
+  min-height: 30em;
+  background:
+    url(https://www.motortrend.com/uploads/sites/5/2020/02/2020-Lamborghini-Aventador-SVJ-Roadster-45.jpg?w=768&width=768&q=75&format=webp)
+    no-repeat center;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
